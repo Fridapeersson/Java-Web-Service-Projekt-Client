@@ -48,7 +48,7 @@ public class ClientApplication {
 					//läser in id nummer från användaren
 					int chosenId = scan.nextInt();
 					scan.nextLine();
-					//Är id´t giltligt ändras urlMod till user=id= + chosenId
+					//Är id´t giltligt ändras urlMod till user?id= + chosenId
 					if(chosenId >= 1 && chosenId <= 6) {
 						urlMod = "user?id=" + chosenId;
 					} else {
